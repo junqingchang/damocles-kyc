@@ -28,7 +28,7 @@ const nano = require('nano');
   }
 }); */
 
-let url = 'https://58dce9f5-340c-4123-93a2-19fb379d26a7-bluemix:0a5c5e9b39efbd7f725d6d9f758385f6237578d58479e793b73de7822df0d1e5@58dce9f5-340c-4123-93a2-19fb379d26a7-bluemix.cloudant.com';
+let url = '<db-url>';
 
 let account = nano(url);
 let db = account.use('user_details');
